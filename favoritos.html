@@ -93,9 +93,22 @@
       margin-bottom: 0em;
       font-family: 'valentin';
     }
+    #video-fondo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
   </style>
 </head>
 <body>
+  <video id="video-fondo" autoplay muted loop>
+    <source src="videof.mp4" type="video/mp4">
+    Tu navegador no soporta el video de fondo.
+  </video>
   <h1>Mis Películas Favoritas</h1>
   <div class="favoritos-container" id="listaFavoritos"></div>
 
@@ -124,3 +137,4 @@
   </script>
 </body>
 </html>
+
