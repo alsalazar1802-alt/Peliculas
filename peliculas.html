@@ -151,9 +151,22 @@
         margin: 0;
         font-family: 'martin';
       }
+      #video-fondo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
     </style>
   </head>
   <body>
+    <video id="video-fondo" autoplay muted loop>
+      <source src="videof.mp4" type="video/mp4">
+      Tu navegador no soporta el video de fondo.
+    </video>
     <header class="barra-busqueda">
       <h2>Busca tu pelicula</h2>
       <div class="boton-centro">
@@ -440,3 +453,4 @@
     </div>
   </body>
 </html>
+
