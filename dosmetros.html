@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>A dos metros de ti</title>
+  <title>Diario de una Pasion</title>
   <style>
 
     body {
@@ -184,28 +184,27 @@
 
   <article class="movie-card">
     <div class="poster">
-      <img src="img/admdt.jpg" alt="A dos metros de ti">
+      <img src="img/ddup.jpg" alt="Diario de una pasión — póster principal">
     </div>
 
     <div class="details">
-      <h2 class="title">A dos metros de ti</h2>
+      <h2 class="title">Diario de una pasión</h2>
 
       <div class="meta">
-        <span>2019</span>
-        <span>1h 57min</span>
-        <span>Romance / Drama</span>
+        <span>2004</span>
+        <span>2h 2min</span>
+        <span>Drama / Romance</span>
       </div>
 
       <p class="synopsis">
-        Es el título en español para Hispanoamérica de la película dramática y romántica Charlie St. Cloud (2010), en la que el joven Charlie sobrevive a un accidente automovilístico trágico donde muere su hermano menor, Sam. A raíz de esto, Charlie adquiere la habilidad sobrenatural de ver y comunicarse con el espíritu de su hermano y otros difuntos, lo que lo ata a su pasado y a una promesa hecha a Sam. Sin embargo, su mundo cambia cuando una antigua compañera de clases, Tess, regresa a casa inesperadamente y Charlie se enfrenta a la difícil decisión de honrar su promesa al espíritu de su hermano o atreverse a seguir adelante y vivir su propia vida con un nuevo amor.
+        Narra la historia de amor atemporal entre Noah Calhoun y Allie Hamilton, dos jóvenes de diferentes clases sociales que se enamoran en la Carolina del Norte de 1940, pero son separados por las circunstancias y la desaprobación familiar. Décadas después, un Noah ya anciano le lee a Allie, quien padece Alzheimer, el diario que relata su intensa historia, incluyendo su reencuentro y la decisión de permanecer juntos, en un intento desesperado por hacerla recordar su vida compartida y el profundo amor que los unió hasta el final de sus días.
       </p>
 
       <div class="actions">
-        <a class="btn btn-trailer" href="https://www.youtube.com/watch?v=vWhX8aTj5TI" target="_blank">Ver tráiler</a>
-        <a class="btn btn-watch" href="https://tv.apple.com/ar/movie/a-dos-metros-de-ti/umc.cmc.365vqo71bqqklmqxa2c47q2ff?action=play" target="_blank">Ver película</a>
-        <a class="btn btn-inicio" href="llorar.html">Volver</a>
+        <a class="btn btn-trailer" href="https://www.youtube.com/watch?v=yDJIcYE32NU" target="_blank">Ver tráiler</a>
+        <a class="btn btn-watch" href="https://cuevana.biz/ver-pelicula/11036/diario-de-una-pasion" target="_blank">Ver película</a>
+        <a class="btn btn-inicio" href="clasicas.html">Volver</a>
       </div>
-
       <div class="estrellas">
         <input type="radio" id="estrella5" name="valoracion" value="5">
         <label for="estrella5">★</label>
@@ -225,9 +224,9 @@
 
       <div class="favorito">
         <span class="corazon"
-      data-nombre="A dos metros de ti"
-      data-enlace="dosmetros.html"
-      data-imagen="img/admdt.jpg"
+      data-nombre="Diario de una pasion"
+      data-enlace="diario.html"
+      data-imagen="img/ddup.jpg"
       onclick="toggleFavorito(this)">♡</span>
         <span class="texto-fav">Agregar a mis favoritos</span>
       </div>
@@ -249,7 +248,7 @@
         const index = favoritos.findIndex(f => f.nombre === nombre);
 
         if (index === -1) {
-          favoritos.push({ nombre, enlace, imagen: 'img/admdt.jpg' });
+          favoritos.push({ nombre, enlace, imagen: 'img/ddup.jpg' });
           localStorage.setItem('favoritos', JSON.stringify(favoritos));
           elemento.textContent = '❤️';
           texto.textContent = 'En favoritos';
