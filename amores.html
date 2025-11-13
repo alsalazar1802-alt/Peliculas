@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Yo antes de ti</title>
+  <title>Amores, enredos y una boda</title>
   <style>
 
     body {
@@ -70,19 +70,6 @@
       font-size: 15px;
       line-height: 1.5;
       color: black;
-    }
-
-    .thumbs {
-      display: flex;
-      gap: 10px;
-      margin-top: 6px;
-    }
-
-    .thumbs img {
-      width: 100px;
-      height: 70px;
-      border-radius: 8px;
-      object-fit: cover;
     }
 
     .actions {
@@ -197,26 +184,26 @@
 
   <article class="movie-card">
     <div class="poster">
-      <img src="img/yadt.jpg" alt="Yo antes de ti">
+      <img src="img/eddbj.webp" alt="Amores, enredos y una boda — póster principal">
     </div>
 
     <div class="details">
-      <h2 class="title">Yo antes de ti</h2>
+      <h2 class="title">El diario de Bridget Jones</h2>
 
       <div class="meta">
-        <span>2016</span>
-        <span>1h 50min</span>
-        <span>Romance / Drama</span>
+        <span>2001</span>
+        <span>1h 37min</span>
+        <span>Comedia / Romance</span>
       </div>
 
       <p class="synopsis">
-        Narra la historia de Louisa Clark, una joven optimista y algo excéntrica que acepta un trabajo como cuidadora de Will Traynor, un adinerado y cínico joven que quedó tetrapléjico tras un accidente de motocicleta. A medida que Lou intenta animar a Will, sus mundos opuestos chocan y, contra todo pronóstico, se enamoran profundamente.
+        Bridget Jones es una mujer de treinta y tantos años que vive en Londres y decide comenzar un diario para poner en orden su caótica vida. Entre intentos de dejar de fumar, bajar de peso y mejorar en el amor, se ve envuelta en un divertido triángulo amoroso entre su encantador pero irresponsable jefe Daniel Cleaver y el serio pero tierno Mark Darcy. A través de situaciones cómicas y embarazosas, Bridget intenta descubrir quién es realmente y qué es lo que quiere en el amor y en la vida.
       </p>
 
       <div class="actions">
-        <a class="btn btn-trailer" href="https://www.youtube.com/watch?v=FRrc2X4Uzm4" target="_blank">Ver tráiler</a>
-        <a class="btn btn-watch" href="https://cuevana.biz/ver-pelicula/296096/yo-antes-de-ti" target="_blank">Ver película</a>
-        <a class="btn btn-inicio" href="llorar.html">Volver</a>
+        <a class="btn btn-trailer" href="https://www.youtube.com/watch?v=o6F5Mnm9sNM" target="_blank">Ver tráiler</a>
+        <a class="btn btn-watch" href="https://cuevana.biz/ver-pelicula/634/el-diario-de-bridget-jones" target="_blank">Ver película</a>
+        <a class="btn btn-inicio" href="clasicas.html">Volver</a>
       </div>
 
       <div class="estrellas">
@@ -238,9 +225,9 @@
 
       <div class="favorito">
         <span class="corazon"
-      data-nombre="Yo antes de ti"
-      data-enlace="antesdeti.html"
-      data-imagen="img/yadt.jpg"
+      data-nombre="El diario de Bridget Jones"
+      data-enlace="amores.html"
+      data-imagen="img/eddbj.jpg"
       onclick="toggleFavorito(this)">♡</span>
         <span class="texto-fav">Agregar a mis favoritos</span>
       </div>
@@ -262,7 +249,7 @@
         const index = favoritos.findIndex(f => f.nombre === nombre);
 
         if (index === -1) {
-          favoritos.push({ nombre, enlace, imagen: 'img/yadt.jpg' });
+          favoritos.push({ nombre, enlace, imagen: 'img/eddbj.jpg' });
           localStorage.setItem('favoritos', JSON.stringify(favoritos));
           elemento.textContent = '❤️';
           texto.textContent = 'En favoritos';
