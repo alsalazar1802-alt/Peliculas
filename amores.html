@@ -184,25 +184,25 @@
 
   <article class="movie-card">
     <div class="poster">
-      <img src="img/aeyub.jpg" alt="Amores, enredos y una boda — póster principal">
+      <img src="img/eddbj.webp" alt="Amores, enredos y una boda — póster principal">
     </div>
 
     <div class="details">
-      <h2 class="title">Amores, enredos y una boda</h2>
+      <h2 class="title">El diario de Bridget Jones</h2>
 
       <div class="meta">
-        <span>2005</span>
-        <span>1h 30min</span>
+        <span>2001</span>
+        <span>1h 37min</span>
         <span>Comedia / Romance</span>
       </div>
 
       <p class="synopsis">
-        Narra la historia de Kat Ellis, una mujer soltera que, para evitar la humillación de ir sola a la boda de su hermana y enfrentarse a su exnovio, contrata a Nick para que se haga pasar por su pareja; lo que comienza como un acuerdo comercial y una farsa, pronto se convierte en una historia de amor real cuando la química entre ellos florece inesperadamente en medio de enredos familiares, mentiras y situaciones cómicas, obligando a Kat a enfrentar sus miedos y decidir si su insólita conexión puede superar la revelación de la verdad.
+        Bridget Jones es una mujer de treinta y tantos años que vive en Londres y decide comenzar un diario para poner en orden su caótica vida. Entre intentos de dejar de fumar, bajar de peso y mejorar en el amor, se ve envuelta en un divertido triángulo amoroso entre su encantador pero irresponsable jefe Daniel Cleaver y el serio pero tierno Mark Darcy. A través de situaciones cómicas y embarazosas, Bridget intenta descubrir quién es realmente y qué es lo que quiere en el amor y en la vida.
       </p>
 
       <div class="actions">
-        <a class="btn btn-trailer" href="https://www.youtube.com/watch?v=YZt5COl3j8o" target="_blank">Ver tráiler</a>
-        <a class="btn btn-watch" href="https://play.mercadolibre.com.ar/ver/muy-bien-acompanada/9549d5c019914c0cb1c449fd679864eb?matt_tool=20909904" target="_blank">Ver película</a>
+        <a class="btn btn-trailer" href="https://www.youtube.com/watch?v=o6F5Mnm9sNM" target="_blank">Ver tráiler</a>
+        <a class="btn btn-watch" href="https://cuevana.biz/ver-pelicula/634/el-diario-de-bridget-jones" target="_blank">Ver película</a>
         <a class="btn btn-inicio" href="clasicas.html">Volver</a>
       </div>
 
@@ -225,9 +225,9 @@
 
       <div class="favorito">
         <span class="corazon"
-      data-nombre="Amores, enredos y una boda"
+      data-nombre="El diario de Bridget Jones"
       data-enlace="amores.html"
-      data-imagen="img/aeyub.jpg"
+      data-imagen="img/eddbj.jpg"
       onclick="toggleFavorito(this)">♡</span>
         <span class="texto-fav">Agregar a mis favoritos</span>
       </div>
@@ -249,7 +249,7 @@
         const index = favoritos.findIndex(f => f.nombre === nombre);
 
         if (index === -1) {
-          favoritos.push({ nombre, enlace, imagen: 'img/aeyub.jpg' });
+          favoritos.push({ nombre, enlace, imagen: 'img/eddbj.jpg' });
           localStorage.setItem('favoritos', JSON.stringify(favoritos));
           elemento.textContent = '❤️';
           texto.textContent = 'En favoritos';
