@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Recuérdame</title>
+  <title>Posdata: Te amo</title>
   <style>
 
     body {
@@ -184,25 +184,25 @@
 
   <article class="movie-card">
     <div class="poster">
-      <img src="img/rc.jpg" alt="Recuérdame">
+      <img src="img/pta.jpg" alt="Posdata: Te amo">
     </div>
 
     <div class="details">
-      <h2 class="title">Recuérdame</h2>
+      <h2 class="title">Posdata: Te amo</h2>
 
       <div class="meta">
-        <span>2010</span>
-        <span>1h 53min</span>
-        <span>Romance / Drama</span>
+        <span>2007</span>
+        <span>2h 6min</span>
+        <span>Romance / Comedia</span>
       </div>
 
       <p class="synopsis">
-        Tyler Hawkins (Robert Pattinson), un joven neoyorquino rebelde y con problemas familiares tras el suicidio de su hermano, encuentra el amor y la redención en Ally Craig (Emilie de Ravin), una chica que vive intensamente tras ser testigo del asesinato de su madre; a pesar de un comienzo complicado basado en una apuesta, su relación se profundiza a medida que sanan mutuamente sus heridas, pero la película culmina con un giro trágico e impactante cuando se revela que Tyler se encontraba en la Torre Norte del World Trade Center el 11 de septiembre de 2001, donde muere durante los ataques.
+        Holly Kennedy queda devastada tras la muerte repentina de su esposo Gerry. Poco después, descubre que él le dejó una serie de cartas escritas antes de morir, con instrucciones para ayudarla a superar el dolor y redescubrir la felicidad. Cada carta termina con la frase “Posdata: Te amo”. A medida que las va recibiendo, Holly emprende un viaje emocional que la lleva a recordar su amor, sanar su corazón y aprender a vivir de nuevo.
       </p>
 
       <div class="actions">
-        <a class="btn btn-trailer" href="https://www.youtube.com/watch?v=IN2HZhT7YhQ" target="_blank">Ver tráiler</a>
-        <a class="btn btn-watch" href="https://www.netflix.com/ar/title/70121711?source=35&fromWatch=true" target="_blank">Ver película</a>
+        <a class="btn btn-trailer" href="https://www.youtube.com/watch?v=zIH-TNkb8ws" target="_blank">Ver tráiler</a>
+        <a class="btn btn-watch" href="https://cuevana.biz/ver-pelicula/6023/posdata-te-amo" target="_blank">Ver película</a>
         <a class="btn btn-inicio" href="llorar.html">Volver</a>
       </div>
 
@@ -225,9 +225,9 @@
 
       <div class="favorito">
         <span class="corazon"
-      data-nombre="Recuérdame"
+      data-nombre="Posdata: Te amo"
       data-enlace="recuerdame.html"
-      data-imagen="img/rc.jpg"
+      data-imagen="img/pta.jpg"
       onclick="toggleFavorito(this)">♡</span>
         <span class="texto-fav">Agregar a mis favoritos</span>
       </div>
@@ -249,7 +249,7 @@
         const index = favoritos.findIndex(f => f.nombre === nombre);
 
         if (index === -1) {
-          favoritos.push({ nombre, enlace, imagen: 'img/rc.jpg' });
+          favoritos.push({ nombre, enlace, imagen: 'img/pta.jpg' });
           localStorage.setItem('favoritos', JSON.stringify(favoritos));
           elemento.textContent = '❤️';
           texto.textContent = 'En favoritos';
